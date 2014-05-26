@@ -1,0 +1,3 @@
+{% extends 'archives.html' %}
+{% block title %}{{ SITENAME }} - {{ subcategory.shortname }}{% endblock %}
+{% block archive_title %}Category: <a href="{{ subcategory.parent.url }}">{{ subcategory.parent }}</a> &raquo; {{ subcategory.shortname }}{% endblock %}
