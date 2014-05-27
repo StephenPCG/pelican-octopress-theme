@@ -126,3 +126,13 @@ dd {
   margin: 0;
   padding: 0 0 0.5em 1.5em;
 }
+
+.entry-content ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
