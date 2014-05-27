@@ -16,7 +16,7 @@ color: #515151 !important;
 }
 /**END HEADER**/
 
-/** ANFANG SIDEBAR **/ 
+/** ANFANG SIDEBAR **/
 section h1 {
 color: #1863a1 !important;
 }
@@ -135,4 +135,22 @@ dd {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px;
+}
+
+p code,p tt,li code,li tt {
+  display: inline;
+  background-color: #ecf0f3;
+  color: #222;
+  font-size: 1.1em;
+  font-family: monospace;
+  white-space: no-wrap;
+  line-height: 1.5em;
+  padding: 0 .3em;
+  margin: -1px 0;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0; 
 }
