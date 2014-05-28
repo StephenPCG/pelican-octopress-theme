@@ -36,8 +36,8 @@
         rel="stylesheet" type="text/css">
   <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
         rel="stylesheet" type="text/css">
-  {% if article and article.lang == 'zh' %}<style>body p{text-indent: 2em;}</style>{% endif %}
-  {% if page and page.lang == 'zh' %}<style>body p{text-indent: 2em;}</style>{% endif %}
+  {% if article and article.lang == 'zh' %}<style>.entry-content p{text-indent: 2em;}</style>{% endif %}
+  {% if page and page.lang == 'zh' %}<style>.entry-content p{text-indent: 2em;}</style>{% endif %}
   {% if article and article.latex %}
     {{ article.latex }}
   {% endif %}
