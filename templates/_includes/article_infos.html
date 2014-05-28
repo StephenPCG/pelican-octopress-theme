@@ -5,6 +5,7 @@
   {% include '_includes/article_time.html' %}
   {% if article.tags %}
   <span class="categories">
+    Tags:&nbsp;
     {% for tag in article.tags %}
     <a class="category" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
     {% endfor %}
