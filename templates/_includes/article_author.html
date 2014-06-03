@@ -1,0 +1,5 @@
+{% if '<a' in article.author|string %}
+{{ article.author }}
+{% else %}
+<a href="{{ article.author.url }}">{{ article.author }}</a>
+{% endif %}

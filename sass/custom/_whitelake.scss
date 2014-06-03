@@ -162,3 +162,22 @@ blockquote {
     color: #888;
     font-style: normal;
 }
+
+.notes {
+    background-color: #ffc;
+    border: 1px solid #ff6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+}
+.warning {
+    background-color: #ffe4e4;
+    border: 1px solid #f66;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+}

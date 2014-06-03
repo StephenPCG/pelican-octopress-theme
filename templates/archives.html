@@ -20,9 +20,13 @@
                             <span class="year">{{ article.date.strftime('%Y') }}</span>
                         </time>
                         <footer>
-                            <span class="categories">posted in
+                            {% if '<a' in article.author|string %}
+                            <span class="fn">Author: {{ article.author }}</span>, 
+                            {% else %}
+                            <span class="fn">Author: <a href="{{ article.author.url }}">{{ article.author }}</a></span>, 
+                            {% endif %}
+                            <span class="categories">Category: 
                                 <a class='category' href='{{ SITEURL }}/{{ article.category.url }}'>{{ article.category }}</a>
-                                {{ tag }}
                             </span>
                         </footer>
                     </article>

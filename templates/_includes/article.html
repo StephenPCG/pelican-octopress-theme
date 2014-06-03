@@ -12,10 +12,12 @@
     {% endif %}
       <p class="meta">
         {% include '_includes/article_time.html' %}
+         | {% include '_includes/article_author.html' %}
         {% if SHOW_DISQUS_COMMENT_COUNT %}
         {% if DISQUS_SITENAME %} | <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Comments</a>{% endif %}
         {% endif %}
       </p>
+    {% include '_includes/article_notes.html' %}
 </header>
 {% endif %}
 
