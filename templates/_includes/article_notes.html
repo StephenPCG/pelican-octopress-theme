@@ -1,3 +1,5 @@
 {% if article.reproducedsource: %}
-<div class="notes">Reproduced from: {{ article.reproducedsource | urlize }}</div>
+{% if article.lang == "zh" %}{% set prompt = "本文转载自：" %}
+{% else %}{% set prompt = "Reproduced from: " %}{% endif %}
+<div class="caution">{{ prompt }}{{ article.reproducedsource | urlize }}</div>
 {% endif %}
