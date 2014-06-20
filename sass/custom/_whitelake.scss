@@ -191,3 +191,18 @@ blockquote:before,blockquote:after,q:before,q:after {
     background-color: #e5ecf9;
     border-left-color: #36c
 }
+
+div.twocol {
+    width: 100%;
+    display: inline-block;
+}
+
+div.twocol div.leftside {
+    width: 250px;
+    padding: 0px 3px 0px 0px;
+    float: left;
+}
+
+div.twocol div.rightside {
+    margin-left: 320px;
+}
